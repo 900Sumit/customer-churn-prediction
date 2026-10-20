@@ -1,0 +1,15 @@
+
+fastapi
+uvicorn[standard]
+pandas
+numpy
+# Saved pipelines were serialized with scikit-learn 1.6.1.
+scikit-learn==1.6.1
+joblib
+python-multipart
+catboost
+psycopg[binary]
+psycopg_pool
+python-dotenv
+PyJWT[crypto]
+httpx
