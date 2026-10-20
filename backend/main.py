@@ -87,7 +87,7 @@ frontend_origins = [
     origin.strip()
     for origin in os.getenv(
         "FRONTEND_ORIGINS",
-        "http://localhost:5173,http://127.0.0.1:5173"
+        "http://localhost:5173,http://127.0.0.1:5173,https://customer-churn-frontend-f04x.onrender.com"
     ).split(",")
     if origin.strip()
 ]
